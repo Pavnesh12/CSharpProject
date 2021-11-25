@@ -1,5 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Employee check present or absent");
+Console.WriteLine("Employee check full time present, part time present or absent");
 int employeeFullTime = 1;
 int employeePartTime = 2;
 int empHour = 0;
