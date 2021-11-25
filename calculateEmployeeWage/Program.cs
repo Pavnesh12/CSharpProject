@@ -3,6 +3,7 @@ Console.WriteLine("Employee check full time present, part time present or absent
 int employeeFullTime = 1;
 int employeePartTime = 2;
 int empHour = 0;
+int empDay = 20;
 int empWagePerHour = 20;
 int empWage = 0;
 Random random = new Random();
@@ -26,6 +27,6 @@ switch(empcheck)
 }
 
 
-empWage = empWagePerHour * empHour;
+empWage = empWagePerHour * empHour * empDay ;
 Console.WriteLine("Employee wage is =" + empWage);
 
